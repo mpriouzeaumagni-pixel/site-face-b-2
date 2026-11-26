@@ -1,0 +1,224 @@
+*{
+    margin: 0%;
+    font-family: "Inter", sans-serif;
+}
+header{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.part1{
+    width: 100%;
+    height: 73px;
+     display: flex;
+    
+}   
+
+.top{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.gauche{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.FACEB{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: 800;
+    font-size: 27px;
+}
+
+.droite{
+        width: 50%;
+      display: flex;
+    flex-direction: row;
+     align-items: center;
+    justify-content: flex-end;
+}
+
+.deux{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.Acceuil{
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.Programme{
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: underline;
+
+}
+
+.part2{
+    width: 100%;
+    height: 322px;
+    background: #DDF76D;
+    display: flex;
+    flex-direction: column;
+}
+
+.quatre{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scene{
+      font-weight: 700;
+    font-size: 12px;
+}
+
+.all4{
+    width: 70%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #221E29;
+
+}
+
+.affiche{
+    font-weight: 800;
+    font-size: 78px;
+}
+
+.soustitre{
+     font-weight: 400;
+    font-size: 18px;
+}
+
+.horaira{
+    width: 127px;
+    height: 46px;
+    background: #DDF76D;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.part3{
+    width: 100%;
+    height: 392px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.four{
+    width: 100%;
+    height: 100%;
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.horaire{
+    width: 50%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+
+}
+.horaire2{
+    font-weight: 800;
+    font-size: 53px;
+    width: 65%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.trois{
+    grid-template-columns: repeat(1, 1fr);
+    display: grid;
+    height: 100%;
+    padding-left:70px ;
+    padding-right: 70px;
+    align-items: center;
+    justify-content: center;
+}
+
+.naya{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+        border-top:1px solid black ;
+        height: 100%;
+         margin: 0%;
+        align-items: center;
+        justify-content: space-around;
+        
+
+}
+
+.miro{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+        border-top:1px solid black ;
+        height: 100%;
+         margin: 0%;
+        align-items: center;
+        justify-content: space-around;
+}
+
+.onde{
+        width: 100%;
+        height: 30%;
+        display: flex;
+        flex-direction: row;
+        border-top:1px solid black ;
+        height: 100%;
+         margin: 0%;
+        align-items: center;
+        justify-content: space-around;
+
+}
+
+
+
+.heure{
+}
+
+.part4{
+    width: 100%;
+    height: 218px;
+    background: #DDCDFB;
+}
+
+footer{
+    width: 100%;
+    height: 78px;
+    background: #221E29;
+}
